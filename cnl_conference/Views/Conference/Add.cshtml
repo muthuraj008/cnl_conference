@@ -1,0 +1,54 @@
+﻿@using Shared.Models
+
+@model ConferenceModel
+<h3>@ViewBag.title</h3>
+<form asp-action="Add">
+    <div class="row form-group">
+        <div class="col-md-2 col-md-offset-2">
+            <label asp-for="Name"></label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" asp-for="Name" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-2 col-md-offset-2">
+            <label asp-for="Presenter"></label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" asp-for="Presenter" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-2 col-md-offset-2">
+            <label asp-for="Location"></label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" asp-for="Location" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-2 col-md-offset-2">
+            <label asp-for="Start"></label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" type="date" asp-for="Start" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-2 col-md-offset-2">
+            <label asp-for="AttendeeTotal"></label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" type="number" asp-for="AttendeeTotal" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-4">
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+         <div class="col-md-4 col-md-offset-4">
+            <button type="submit" class="btn btn-primary">back</button>
+        </div>
+    </div>
+    </form>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cnl_conference", "cnl_conference\cnl_conference.csproj", "{E05571E8-67D2-4416-AE03-A2CE3914930D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{8271CECC-9082-4C7E-BE1C-CE433F24025E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E05571E8-67D2-4416-AE03-A2CE3914930D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05571E8-67D2-4416-AE03-A2CE3914930D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05571E8-67D2-4416-AE03-A2CE3914930D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05571E8-67D2-4416-AE03-A2CE3914930D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8271CECC-9082-4C7E-BE1C-CE433F24025E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8271CECC-9082-4C7E-BE1C-CE433F24025E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8271CECC-9082-4C7E-BE1C-CE433F24025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8271CECC-9082-4C7E-BE1C-CE433F24025E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {689F8E84-DC8A-4B5E-986A-83CC43BE1450}
+	EndGlobalSection
+EndGlobal
